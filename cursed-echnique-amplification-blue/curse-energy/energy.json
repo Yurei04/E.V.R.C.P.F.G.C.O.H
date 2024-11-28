@@ -1,0 +1,7 @@
+{
+    "USA": { "consumption": 40000000000000000000 },
+    "Canada": { "consumption": 1000000000000000000000 },
+    "India": { "consumption": 20000000000000000000 },
+    "Australia": { "consumption": 500000000000000000000000000 },
+    "Philippines": { "consumption": 300000000000000000000 }
+}
