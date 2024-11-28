@@ -1,7 +1,22 @@
 {
-    "USA": { "consumption": 40000000000000000000 },
-    "Canada": { "consumption": 1000000000000000000000 },
-    "India": { "consumption": 20000000000000000000 },
-    "Australia": { "consumption": 500000000000000000000000000 },
-    "Philippines": { "consumption": 300000000000000000000 }
+    "United_States": { "consumption": 4050000},
+    "China": { "consumption": 5830000},
+    "India": { "consumption": 1325000},
+    "Russia": { "consumption": 1150000},
+    "Japan": { "consumption": 975000},
+    "Germany": { "consumption": 650000},
+    "United_Kingdom": { "consumption": 550000},
+    "France": { "consumption": 620000},
+    "Brazil": { "consumption": 420000},
+    "Canada": { "consumption": 510000},
+    "Australia": { "consumption": 330000},
+    "South_Africa": { "consumption": 290000},
+    "Mexico": { "consumption": 375000},
+    "South_Korea": { "consumption": 810000},
+    "Saudi_Arabia": { "consumption": 290000},
+    "Indonesia": { "consumption": 245000},
+    "Italy": { "consumption": 430000},
+    "Spain": { "consumption": 360000},
+    "Argentina": { "consumption": 175000},
+    "Philippines": { "consumption": 150000}
 }

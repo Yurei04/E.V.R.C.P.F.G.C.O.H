@@ -1,3 +1,25 @@
+
+const energyOutputPerUnit = {
+
+};
+
+document.addEventListener("DOMContentLoaded", async () => {
+    await fetchEnergyData();
+
+    document.getElementById("calculateButton").addEventListener("click", () => {
+        const energyAmount = Number(document.getElementById("energyInput").value);
+        const energyType = document.getElementById("energyType").value;
+
+        if (isNaN(energyAmount) || energyAmount <= 0) {
+            alert("Please enter a valid energy amount.");
+            return;
+        }
+
+        const categories = calculatePowerCategories(energyAmount, energyType);
+        highlightCountriesByCategory(categories);
+        showCategoryChart(categories);
+    });
+
 async function getEnergyConsumption(country) {
     const api_url = '../cursed-echnique-amplification-blue/curse-energy/energy.json'; 
 
@@ -43,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const classes = e.className.baseVal.replace(/ /g, '.');
             document.querySelectorAll(`.${classes}`).forEach(country => {
                 country.style.fill = "#ececec";
+                
             });
             document.getElementById("name").style.opacity = 0;
         });
@@ -52,4 +75,5 @@ document.addEventListener("DOMContentLoaded", () => {
             getEnergyConsumption(e.id);
         });
     });
+});
 });
