@@ -9,82 +9,108 @@
 </head>
 
 <body>
-    <!-- Switch Container -->
-    <div class="switch-container">
+    <div class="switches">
         <label class="toggle-switch">
             <input type="checkbox" id="switch1" checked>
-            <span>Normal Mode</span>
+            <div class="toggle-switch-background">
+                <div class="toggle-switch-handle"></div>
+            </div>
         </label>
+
         <label class="toggle-switch">
             <input type="checkbox" id="switch2">
-            <span>Aura Mode</span>
+            <div class="toggle-switch-background">
+                <div class="toggle-switch-handle"></div>
+            </div>
         </label>
+
         <label class="toggle-switch">
             <input type="checkbox" id="switch3">
-            <span>Rift Mode</span>
+            <div class="toggle-switch-background">
+                <div class="toggle-switch-handle"></div>
+            </div>
         </label>
     </div>
 
-    <!-- Normal Mode -->
-    <div id="normalMode" class="visible">
-        <h2>Normal Mode</h2>
-        <div>
-            <label class="toggle-switch">
-                <input type="checkbox" name="normalEnergy" data-type="uranium" checked>
-                <span>Uranium</span>
-            </label>
-            <label class="toggle-switch">
-                <input type="checkbox" name="normalEnergy" data-type="solar">
-                <span>Solar</span>
-            </label>
-            <label class="toggle-switch">
-                <input type="checkbox" name="normalEnergy" data-type="biomass">
-                <span>Biomass</span>
-            </label>
+    <div class="switches-containers">
+        <!-- Normal Mode -->
+        <div id="normalMode" class="switch visible">
+            <h4>Switch 1: Normal</h4>
+            <div class="buttons">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-normal1" data-type="uranium" checked>
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Uranium</div>
+                    </div>
+                </label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-normal2" data-type="solar">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Solar</div>
+                    </div>
+                </label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-normal3" data-type="biomass">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Biomass</div>
+                    </div>
+                </label>
+            </div>
+            <input type="number" class="energyInput" placeholder="Enter uranium amount">
         </div>
-        <input type="number" class="energyInput" placeholder="Enter energy amount">
-    </div>
 
-    <!-- Aura Mode -->
-    <div id="auraMode" class="hidden">
-        <h2>Aura Mode</h2>
-        <div>
-            <label class="toggle-switch">
-                <input type="checkbox" name="auraEnergy" data-type="rizz" checked>
-                <span>Rizz</span>
-            </label>
-            <label class="toggle-switch">
-                <input type="checkbox" name="auraEnergy" data-type="aura">
-                <span>Aura</span>
-            </label>
-            <label class="toggle-switch">
-                <input type="checkbox" name="auraEnergy" data-type="skibidi">
-                <span>Skibidi</span>
-            </label>
+        <!-- Aura Mode -->
+        <div id="auraMode" class="switch hidden">
+            <h4>Switch 2: Peak</h4>
+            <div class="buttons">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-aura1" data-type="rizz" checked>
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Rizz</div>
+                    </div>
+                </label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-aura2" data-type="aura">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Aura</div>
+                    </div>
+                </label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-aura3" data-type="skibidi">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Skibidi</div>
+                    </div>
+                </label>
+            </div>
+            <input type="number" class="energyInput" placeholder="Enter aura amount">
         </div>
-        <input type="number" class="energyInput" placeholder="Enter energy amount">
-    </div>
 
-    <!-- Rift Mode -->
-    <div id="riftMode" class="hidden">
-        <h2>Rift Mode</h2>
-        <div>
-            <label class="toggle-switch">
-                <input type="checkbox" name="riftEnergy" data-type="darkEnergy" checked>
-                <span>Dark Energy</span>
-            </label>
-            <label class="toggle-switch">
-                <input type="checkbox" name="riftEnergy" data-type="celestialEnergy">
-                <span>Celestial Energy</span>
-            </label>
-            <label class="toggle-switch">
-                <input type="checkbox" name="riftEnergy" data-type="starDust">
-                <span>Star Dust</span>
-            </label>
+        <!-- Rift Mode -->
+        <div id="riftMode" class="switch hidden">
+            <h4>Switch 3: The Gods Beyond the Rift</h4>
+            <div class="buttons">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-rift1" data-type="darkEnergy" checked>
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Dark Energy</div>
+                    </div>
+                </label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-rift2" data-type="celestialEnergy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Celestial Energy</div>
+                    </div>
+                </label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="switch-rift3" data-type="starDust">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle">Star Dust</div>
+                    </div>
+                </label>
+            </div>
+            <input type="number" class="energyInput" placeholder="Enter energy amount">
         </div>
-        <input type="number" class="energyInput" placeholder="Enter energy amount">
     </div>
-
     
     <div id="name">
         <p id="namep">Name</p>
@@ -92,8 +118,6 @@
 
     <div id="energy"></div>
     
-
-
 
     <!--Got from God knows who -->
     <svg id="allSvg" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round"
@@ -1630,7 +1654,7 @@
         <canvas id="categoryChart"></canvas>
     </div>
     
-
+    
     <script src="https://kit.fontawesome.com/37d6505749.js" crossorigin="anonymous"></script>
     <script src="./cursed-technique-reversal-red/ThisWasCodedByMyCat.js"></script>
 </body>
