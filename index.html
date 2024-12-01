@@ -3,25 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E.V.R.C.P.F.G.C.O.H</title>
     <link rel="stylesheet" href="./cursed-technique-reversal-red/slay.css">
-
     <?xml version="1.0"?>
 </head>
 <body>
     
-    <div class="nav-bar">
+    <header class="header-nav" id="header-nav">
+        <nav class="nav container-nav">
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="bi bi-arrow-up-right"></i>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">
+                  <i class="bi bi-arrow-up-right"></i>
+                  <span>About</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#learning" class="nav__link">
+                  <i class="bi bi-arrow-up-right"></i>
+                  <span>Settings</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="./FRONTEND/HTML/register.html" class="nav__link">
+                  <i class="bi bi-arrow-up-right"></i>
+                  <span>DevPost</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#oppor" class="nav__link">
+                  <i class="bi bi-arrow-up-right"></i>
+                  <span>Something</span>
+                </a>
+              </li>
+            </ul>
+    
+          <!-- Toggle End -->
+        </nav>
+      </header>
 
-    </div>
+      <h2>Energy Visualizator Rovolutionary Concept Prototype For Greater Chill Of Humanity</h2>
 
     <div class="map-container">
 
         <div id="name">
             <p id="namep">Name</p>
         </div>    
-        <div id="energyCont">
-            <p id="energy">Energy</p>
-        </div>
     
         <svg id="allSvg" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round"
             version="1.2" viewbox="0 0 2000 857" xmlns="http://www.w3.org/2000/svg">
@@ -1556,134 +1590,171 @@
 
 
     <div class="mode-switches">
-        <h2>Basic Energy Types</h2>
-        <label class="toggle-switch">
-            <input type="checkbox" value="basic" name="mode" data-container="basic-energy-container" id="energy">
-            <div class="toggle-switch-background">
-                <div class="toggle-switch-handle"></div>
-            </div>
-        </label>
-        <h2>BrainRot Energy</h2>
-        <label class="toggle-switch">
-            <input type="checkbox" value="brainrot" name="mode" data-container="brainrot-energy-container" id="brainrot" checked> 
-            <div class="toggle-switch-background">
-                <div class="toggle-switch-handle"></div>
-            </div>
-        </label>
-        <h2>Cosmic Energy</h2>
-        <label class="toggle-switch">
-            <input type="checkbox" value="cosmic" name="mode" data-container="cosmic-energy-container" id="cosmic">
-            <div class="toggle-switch-background">
-                <div class="toggle-switch-handle"></div>
-            </div>
-        </label>
-        <h2>What If Energy</h2>
-        <label class="toggle-switch">
-            <input type="checkbox" value="whatif" name="mode" data-container="what-if-energy-container" id="whatif">
-            <div class="toggle-switch-background">
-                <div class="toggle-switch-handle"></div>
-            </div>
-        </label>
+        <div class="mode-switch-inner">
+            <h2>Basic Energy </h2>
+            <label class="toggle-switch">
+                <input type="checkbox" value="basic" name="mode" data-container="basic-energy-container" id="energy">
+                <div class="toggle-switch-background">
+                    <div class="toggle-switch-handle"></div>
+                </div>
+            </label>
+        </div>
+        <div class="mode-switch-inner">
+            <h2>BrainRot Energy</h2>
+            <label class="toggle-switch">
+                <input type="checkbox" value="brainrot" name="mode" data-container="brainrot-energy-container" id="brainrot" checked> 
+                <div class="toggle-switch-background">
+                    <div class="toggle-switch-handle"></div>
+                </div>
+            </label>
+        </div>
+        <div class="mode-switch-inner">
+            <h2>Cosmic Energy</h2>
+            <label class="toggle-switch">
+                <input type="checkbox" value="cosmic" name="mode" data-container="cosmic-energy-container" id="cosmic">
+                <div class="toggle-switch-background">
+                    <div class="toggle-switch-handle"></div>
+                </div>
+            </label>
+        </div>
+        <div class="mode-switch-inner">
+            <h2>What If Energy</h2>
+            <label class="toggle-switch">
+                <input type="checkbox" value="whatif" name="mode" data-container="what-if-energy-container" id="whatif">
+                <div class="toggle-switch-background">
+                    <div class="toggle-switch-handle"></div>
+                </div>
+            </label>
+        </div>
     </div>
     
     <div class="modes-container">
         <div class="basic-energy-container hidden">
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="basic-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="basic-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="basic-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
+            <div class="inner-column">
+                <h2>Oil</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="basic-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="inner-column">
+                <h2>Electricity</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="basic-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="inner-column">
+                <h2>Nuclear</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="basic-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
             <input type="number" class="energy-quantity" placeholder="Enter quantity" min="1">
+            
         </div>
 
         <div class="brainrot-energy-container hidden">
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="brain-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="brain-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="brain-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
+            <div class="brain-inner">
+                <h2>Aura</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="brain-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="brain-inner">
+                <h2>Rizz</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="brain-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="brain-inner">
+                <h2>Chill</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="brain-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
             <input type="number" class="energy-quantity" placeholder="Enter quantity" min="1">
         </div>
 
         <div class="cosmic-energy-container hidden">
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="cosmic-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="cosmic-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="cosmic-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
+            <div class="cosmic-inner">
+                <h2>Star Dust</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="cosmic-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="cosmic-inner">
+                <h2>Dark Energy</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="cosmic-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="cosmic-inner">
+                <h2>Light Energy</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="cosmic-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            
+
+
             <input type="number" class="energy-quantity" placeholder="Enter quantity" min="1">
         </div>
 
         <div class="what-if-energy-container hidden">
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="what-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="what-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
-            <h2></h2>
-            <label class="toggle-switch">
-                <input type="checkbox" value="100" name="what-energy">
-                <div class="toggle-switch-background">
-                    <div class="toggle-switch-handle"></div>
-                </div>
-            </label>
+            <div class="whatif-inner">
+                <h2>Friendship</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="what-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="whatif-inner">
+                <h2>Mark Zuckerberg</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="what-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="whatif-inner">
+                <h2>Banana</h2>
+                <label class="toggle-switch">
+                    <input type="checkbox" value="100" name="what-energy">
+                    <div class="toggle-switch-background">
+                        <div class="toggle-switch-handle"></div>
+                    </div>
+                </label>
+            </div>
             <input type="number" class="energy-quantity" placeholder="Enter quantity" min="1">
         </div>
     </div>
@@ -1695,11 +1766,11 @@
         <button onclick="calculateEnergy()">Calculate Energy</button>
     </div>
 
-
-    <div class="chart-container" style="position: relative; height: 400px; width: 600px;">
+    <div id="energy-result">Energy: </div>
+    <div class="chart-container" style="position: relative; height: 600px; width: 70%;">
         <canvas id="energy-chart"></canvas>
     </div>
-    <div id="energy-result"></div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./cursed-technique-reversal-red/ThisWasCodedByMyCat.js"></script>

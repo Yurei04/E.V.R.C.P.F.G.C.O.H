@@ -305,3 +305,24 @@ document.querySelectorAll(".allPaths").forEach((path) => {
 loadEnergyData();
 loadWorldData();
 
+document.querySelectorAll('.mode-switches input[type="checkbox"]').forEach(switchEl => {
+    switchEl.addEventListener('change', function () {
+        const body = document.body;
+
+        // Remove all mode classes
+        body.classList.remove('basic-mode', 'brainrot-mode', 'cosmic-mode', 'whatif-mode');
+
+        // Apply the new mode
+        if (this.checked) {
+            if (this.value === 'basic') {
+                body.classList.add('basic-mode');
+            } else if (this.value === 'brainrot') {
+                body.classList.add('brainrot-mode');
+            } else if (this.value === 'cosmic') {
+                body.classList.add('cosmic-mode');
+            } else if (this.value === 'whatif') {
+                body.classList.add('whatif-mode');
+            }
+        }
+    });
+});
