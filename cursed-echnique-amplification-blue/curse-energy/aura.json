@@ -1,172 +1,442 @@
 {
-    "Angola": {
-        "oil": 15,
-        "electricity": 2,
-        "nuclear": 0
-    },
     "Argentina": {
-        "oil": 50,
-        "electricity": 15,
-        "nuclear": 2
+        "aura": 85,
+        "rizz": 95,
+        "chill": 70
     },
     "Australia": {
-        "oil": 120,
-        "electricity": 40,
-        "nuclear": 0
+        "aura": 90,
+        "rizz": 80,
+        "chill": 100
     },
     "Brazil": {
-        "oil": 60,
-        "electricity": 20,
-        "nuclear": 1
+        "aura": 100,
+        "rizz": 110,
+        "chill": 95
     },
     "Canada": {
-        "oil": 150,
-        "electricity": 50,
-        "nuclear": 10
+        "aura": 75,
+        "rizz": 60,
+        "chill": 120
     },
     "China": {
-        "aura": 555550,
-        "rizz": 255500,
-        "nuclear": 35550
-    },
-    "France": {
-        "oil": 100,
-        "electricity": 70,
-        "nuclear": 40
-    },
-    "Germany": {
-        "oil": 180,
-        "electricity": 100,
-        "nuclear": 12
-    },
-    "India": {
-        "oil": 230,
-        "electricity": 80,
-        "nuclear": 5
-    },
-    "Indonesia": {
-        "oil": 70,
-        "electricity": 30,
-        "nuclear": 1
-    },
-    "Italy": {
-        "oil": 90,
-        "electricity": 50,
-        "nuclear": 0
-    },
-    "Japan": {
-        "oil": 200,
-        "electricity": 90,
-        "nuclear": 25
-    },
-    "Mexico": {
-        "oil": 110,
-        "electricity": 40,
-        "nuclear": 0
-    },
-    "Nigeria": {
-        "oil": 120,
-        "electricity": 10,
-        "nuclear": 0
-    },
-    "Russia": {
-        "oil": 400,
-        "electricity": 150,
-        "nuclear": 25
-    },
-    "South Africa": {
-        "oil": 50,
-        "electricity": 35,
-        "nuclear": 5
-    },
-    "South Korea": {
-        "oil": 160,
-        "electricity": 80,
-        "nuclear": 20
-    },
-    "Spain": {
-        "oil": 120,
-        "electricity": 60,
-        "nuclear": 10
-    },
-    "Turkey": {
-        "oil": 100,
-        "electricity": 45,
-        "nuclear": 0
-    },
-    "United Kingdom": {
-        "oil": 170,
-        "electricity": 80,
-        "nuclear": 20
-    },
-    "United States": {
-        "aura": 1000,
-        "rizz": 400,
-        "skibidi": 100
-    },
-    "Vietnam": {
-        "oil": 80,
-        "electricity": 25,
-        "nuclear": 0
+        "aura": 150,
+        "rizz": 80,
+        "chill": 50
     },
     "Egypt": {
-        "oil": 90,
-        "electricity": 25,
-        "nuclear": 2
+        "aura": 200,
+        "rizz": 70,
+        "chill": 40
     },
-    "Saudi Arabia": {
-        "oil": 700,
-        "electricity": 50,
-        "nuclear": 0
+    "France": {
+        "aura": 110,
+        "rizz": 130,
+        "chill": 80
     },
-    "Chile": {
-        "oil": 50,
-        "electricity": 20,
-        "nuclear": 0
+    "Germany": {
+        "aura": 95,
+        "rizz": 75,
+        "chill": 65
     },
-    "Thailand": {
-        "oil": 60,
-        "electricity": 25,
-        "nuclear": 0
+    "India": {
+        "aura": 180,
+        "rizz": 85,
+        "chill": 55
     },
-    "Malaysia": {
-        "oil": 130,
-        "electricity": 60,
-        "nuclear": 0
+    "Indonesia": {
+        "aura": 90,
+        "rizz": 70,
+        "chill": 80
     },
-    "Pakistan": {
-        "oil": 110,
-        "electricity": 45,
-        "nuclear": 3
+    "Italy": {
+        "aura": 120,
+        "rizz": 140,
+        "chill": 75
     },
-    "Bangladesh": {
-        "oil": 60,
-        "electricity": 30,
-        "nuclear": 0
+    "Japan": {
+        "aura": 200,
+        "rizz": 60,
+        "chill": 50
     },
-    "Algeria": {
-        "oil": 70,
-        "electricity": 30,
-        "nuclear": 0
+    "Mexico": {
+        "aura": 80,
+        "rizz": 85,
+        "chill": 95
+    },
+    "Nigeria": {
+        "aura": 110,
+        "rizz": 70,
+        "chill": 90
+    },
+    "Russia": {
+        "aura": 150,
+        "rizz": 100,
+        "chill": 50
+    },
+    "South Africa": {
+        "aura": 90,
+        "rizz": 75,
+        "chill": 85
+    },
+    "South Korea": {
+        "aura": 140,
+        "rizz": 90,
+        "chill": 60
+    },
+    "Spain": {
+        "aura": 110,
+        "rizz": 120,
+        "chill": 90
+    },
+    "Turkey": {
+        "aura": 95,
+        "rizz": 85,
+        "chill": 70
+    },
+    "United Kingdom": {
+        "aura": 80,
+        "rizz": 70,
+        "chill": 75
+    },
+    "United States": {
+        "aura": 100,
+        "rizz": 110,
+        "chill": 85
+    },
+    "Vietnam": {
+        "aura": 90,
+        "rizz": 60,
+        "chill": 80
+    },
+    "Greece": {
+        "aura": 150,
+        "rizz": 90,
+        "chill": 70
+    },
+    "Iran": {
+        "aura": 200,
+        "rizz": 75,
+        "chill": 50
+    },
+    "Ireland": {
+        "aura": 70,
+        "rizz": 80,
+        "chill": 95
     },
     "Israel": {
-        "oil": 40,
-        "electricity": 20,
-        "nuclear": 5
+        "aura": 95,
+        "rizz": 85,
+        "chill": 70
+    },
+    "Jordan": {
+        "aura": 100,
+        "rizz": 60,
+        "chill": 50
+    },
+    "Kazakhstan": {
+        "aura": 150,
+        "rizz": 70,
+        "chill": 65
+    },
+    "Kenya": {
+        "aura": 85,
+        "rizz": 80,
+        "chill": 75
+    },
+    "Libya": {
+        "aura": 100,
+        "rizz": 50,
+        "chill": 60
+    },
+    "Morocco": {
+        "aura": 75,
+        "rizz": 70,
+        "chill": 85
+    },
+    "Netherlands": {
+        "aura": 90,
+        "rizz": 95,
+        "chill": 90
+    },
+    "Norway": {
+        "aura": 100,
+        "rizz": 70,
+        "chill": 100
     },
     "Poland": {
-        "oil": 140,
-        "electricity": 60,
-        "nuclear": 0
+        "aura": 95,
+        "rizz": 85,
+        "chill": 80
     },
-    "Ukraine": {
-        "oil": 80,
-        "electricity": 50,
-        "nuclear": 15
+    "Portugal": {
+        "aura": 85,
+        "rizz": 90,
+        "chill": 95
+    },
+    "Saudi Arabia": {
+        "aura": 120,
+        "rizz": 70,
+        "chill": 50
     },
     "Sweden": {
-        "oil": 50,
-        "electricity": 30,
-        "nuclear": 15
+        "aura": 140,
+        "rizz": 80,
+        "chill": 90
+    },
+    "Switzerland": {
+        "aura": 80,
+        "rizz": 75,
+        "chill": 85
+    },
+    "Thailand": {
+        "aura": 90,
+        "rizz": 60,
+        "chill": 80
+    },
+    "Zimbabwe": {
+        "aura": 70,
+        "rizz": 50,
+        "chill": 75
+    },
+    "Algeria": {
+        "aura": 90,
+        "rizz": 70,
+        "chill": 60
+    },
+    "Angola": {
+        "aura": 85,
+        "rizz": 65,
+        "chill": 70
+    },
+    "Austria": {
+        "aura": 75,
+        "rizz": 90,
+        "chill": 80
+    },
+    "Bangladesh": {
+        "aura": 100,
+        "rizz": 60,
+        "chill": 50
+    },
+    "Belgium": {
+        "aura": 80,
+        "rizz": 85,
+        "chill": 75
+    },
+    "Bolivia": {
+        "aura": 95,
+        "rizz": 70,
+        "chill": 65
+    },
+    "Cambodia": {
+        "aura": 70,
+        "rizz": 60,
+        "chill": 80
+    },
+    "Cameroon": {
+        "aura": 85,
+        "rizz": 65,
+        "chill": 75
+    },
+    "Colombia": {
+        "aura": 100,
+        "rizz": 90,
+        "chill": 85
+    },
+    "Cuba": {
+        "aura": 90,
+        "rizz": 80,
+        "chill": 70
+    },
+    "Denmark": {
+        "aura": 75,
+        "rizz": 70,
+        "chill": 100
+    },
+    "Ecuador": {
+        "aura": 85,
+        "rizz": 65,
+        "chill": 80
+    },
+    "Ethiopia": {
+        "aura": 100,
+        "rizz": 50,
+        "chill": 60
+    },
+    "Finland": {
+        "aura": 70,
+        "rizz": 60,
+        "chill": 95
+    },
+    "Ghana": {
+        "aura": 85,
+        "rizz": 70,
+        "chill": 80
+    },
+    "Guatemala": {
+        "aura": 90,
+        "rizz": 75,
+        "chill": 85
+    },
+    "Honduras": {
+        "aura": 95,
+        "rizz": 70,
+        "chill": 65
+    },
+    "Iceland": {
+        "aura": 100,
+        "rizz": 85,
+        "chill": 120
+    },
+    "Iraq": {
+        "aura": 90,
+        "rizz": 60,
+        "chill": 50
+    },
+    "Jamaica": {
+        "aura": 85,
+        "rizz": 95,
+        "chill": 110
+    },
+    "Kuwait": {
+        "aura": 130,
+        "rizz": 50,
+        "chill": 40
+    },
+    "Laos": {
+        "aura": 80,
+        "rizz": 65,
+        "chill": 75
+    },
+    "Lebanon": {
+        "aura": 85,
+        "rizz": 80,
+        "chill": 70
+    },
+    "Luxembourg": {
+        "aura": 75,
+        "rizz": 90,
+        "chill": 95
+    },
+    "Malawi": {
+        "aura": 70,
+        "rizz": 55,
+        "chill": 75
+    },
+    "Malta": {
+        "aura": 80,
+        "rizz": 85,
+        "chill": 90
+    },
+    "Mongolia": {
+        "aura": 95,
+        "rizz": 65,
+        "chill": 60
+    },
+    "Myanmar": {
+        "aura": 90,
+        "rizz": 60,
+        "chill": 70
+    },
+    "Nepal": {
+        "aura": 110,
+        "rizz": 50,
+        "chill": 60
+    },
+    "New Zealand": {
+        "aura": 80,
+        "rizz": 75,
+        "chill": 120
+    },
+    "Oman": {
+        "aura": 85,
+        "rizz": 65,
+        "chill": 50
+    },
+    "Paraguay": {
+        "aura": 75,
+        "rizz": 60,
+        "chill": 80
+    },
+    "Peru": {
+        "aura": 95,
+        "rizz": 80,
+        "chill": 75
+    },
+    "Philippines": {
+        "aura": 110,
+        "rizz": 65,
+        "chill": 80
+    },
+    "Qatar": {
+        "aura": 130,
+        "rizz": 70,
+        "chill": 40
+    },
+    "Romania": {
+        "aura": 85,
+        "rizz": 75,
+        "chill": 70
+    },
+    "Serbia": {
+        "aura": 90,
+        "rizz": 80,
+        "chill": 65
+    },
+    "Singapore": {
+        "aura": 75,
+        "rizz": 90,
+        "chill": 85
+    },
+    "Slovakia": {
+        "aura": 70,
+        "rizz": 75,
+        "chill": 80
+    },
+    "Sri Lanka": {
+        "aura": 95,
+        "rizz": 65,
+        "chill": 70
+    },
+    "Sudan": {
+        "aura": 90,
+        "rizz": 55,
+        "chill": 40
+    },
+    "Syria": {
+        "aura": 80,
+        "rizz": 50,
+        "chill": 30
+    },
+    "Tanzania": {
+        "aura": 95,
+        "rizz": 60,
+        "chill": 75
+    },
+    "Tunisia": {
+        "aura": 85,
+        "rizz": 75,
+        "chill": 65
+    },
+    "Uganda": {
+        "aura": 90,
+        "rizz": 65,
+        "chill": 70
+    },
+    "Uzbekistan": {
+        "aura": 110,
+        "rizz": 70,
+        "chill": 50
+    },
+    "Venezuela": {
+        "aura": 120,
+        "rizz": 80,
+        "chill": 40
+    },
+    "Zambia": {
+        "aura": 75,
+        "rizz": 60,
+        "chill": 85
     }
 }

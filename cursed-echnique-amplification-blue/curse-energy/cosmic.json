@@ -1,172 +1,453 @@
 {
-    "Angola": {
-        "oil": 15,
-        "electricity": 2,
-        "nuclear": 0
-    },
-    "Argentina": {
-        "oil": 50,
-        "electricity": 15,
-        "nuclear": 2
-    },
-    "Australia": {
-        "oil": 120,
-        "electricity": 40,
-        "nuclear": 0
-    },
-    "Brazil": {
-        "oil": 60,
-        "electricity": 20,
-        "nuclear": 1
-    },
-    "Canada": {
-        "oil": 150,
-        "electricity": 50,
-        "nuclear": 10
+    "United States": {
+        "dark_energy": 10000,
+        "light_energy": 8500,
+        "strange_matter": 5000
     },
     "China": {
-        "oil": 550,
-        "electricity": 200,
-        "nuclear": 30
-    },
-    "France": {
-        "oil": 100,
-        "electricity": 70,
-        "nuclear": 40
-    },
-    "Germany": {
-        "oil": 180,
-        "electricity": 100,
-        "nuclear": 12
-    },
-    "India": {
-        "oil": 230,
-        "electricity": 80,
-        "nuclear": 5
-    },
-    "Indonesia": {
-        "oil": 70,
-        "electricity": 30,
-        "nuclear": 1
-    },
-    "Italy": {
-        "oil": 90,
-        "electricity": 50,
-        "nuclear": 0
-    },
-    "Japan": {
-        "oil": 200,
-        "electricity": 90,
-        "nuclear": 25
-    },
-    "Mexico": {
-        "oil": 110,
-        "electricity": 40,
-        "nuclear": 0
-    },
-    "Nigeria": {
-        "oil": 120,
-        "electricity": 10,
-        "nuclear": 0
+        "dark_energy": 9500,
+        "light_energy": 8700,
+        "strange_matter": 5500
     },
     "Russia": {
-        "oil": 400,
-        "electricity": 150,
-        "nuclear": 25
+        "dark_energy": 9000,
+        "light_energy": 8000,
+        "strange_matter": 7000
     },
-    "South Africa": {
-        "oil": 50,
-        "electricity": 35,
-        "nuclear": 5
+    "India": {
+        "dark_energy": 7500,
+        "light_energy": 7200,
+        "strange_matter": 4000
     },
-    "South Korea": {
-        "oil": 160,
-        "electricity": 80,
-        "nuclear": 20
+    "Germany": {
+        "dark_energy": 8000,
+        "light_energy": 7500,
+        "strange_matter": 4500
     },
-    "Spain": {
-        "oil": 120,
-        "electricity": 60,
-        "nuclear": 10
-    },
-    "Turkey": {
-        "oil": 100,
-        "electricity": 45,
-        "nuclear": 0
+    "Japan": {
+        "dark_energy": 8500,
+        "light_energy": 7800,
+        "strange_matter": 4700
     },
     "United Kingdom": {
-        "oil": 170,
-        "electricity": 80,
-        "nuclear": 20
+        "dark_energy": 8200,
+        "light_energy": 7700,
+        "strange_matter": 4300
     },
-    "United States": {
-        "oil": 1000,
-        "electricity": 400,
-        "nuclear": 100
+    "France": {
+        "dark_energy": 8100,
+        "light_energy": 7600,
+        "strange_matter": 4200
     },
-    "Vietnam": {
-        "oil": 80,
-        "electricity": 25,
-        "nuclear": 0
+    "Canada": {
+        "dark_energy": 8400,
+        "light_energy": 7900,
+        "strange_matter": 4600
     },
-    "Egypt": {
-        "oil": 90,
-        "electricity": 25,
-        "nuclear": 2
+    "Brazil": {
+        "dark_energy": 7800,
+        "light_energy": 7400,
+        "strange_matter": 4100
+    },
+    "Australia": {
+        "dark_energy": 8600,
+        "light_energy": 8000,
+        "strange_matter": 4800
+    },
+    "South Korea": {
+        "dark_energy": 8300,
+        "light_energy": 7800,
+        "strange_matter": 4400
+    },
+    "Italy": {
+        "dark_energy": 7700,
+        "light_energy": 7300,
+        "strange_matter": 4000
+    },
+    "Mexico": {
+        "dark_energy": 7400,
+        "light_energy": 7100,
+        "strange_matter": 3900
     },
     "Saudi Arabia": {
-        "oil": 700,
-        "electricity": 50,
-        "nuclear": 0
+        "dark_energy": 8000,
+        "light_energy": 7500,
+        "strange_matter": 4200
     },
-    "Chile": {
-        "oil": 50,
-        "electricity": 20,
-        "nuclear": 0
+    "Turkey": {
+        "dark_energy": 7500,
+        "light_energy": 7200,
+        "strange_matter": 4100
     },
-    "Thailand": {
-        "oil": 60,
-        "electricity": 25,
-        "nuclear": 0
+    "Indonesia": {
+        "dark_energy": 7200,
+        "light_energy": 7000,
+        "strange_matter": 3800
     },
-    "Malaysia": {
-        "oil": 130,
-        "electricity": 60,
-        "nuclear": 0
+    "Spain": {
+        "dark_energy": 7900,
+        "light_energy": 7600,
+        "strange_matter": 4100
     },
-    "Pakistan": {
-        "oil": 110,
-        "electricity": 45,
-        "nuclear": 3
+    "South Africa": {
+        "dark_energy": 7600,
+        "light_energy": 7300,
+        "strange_matter": 4000
     },
-    "Bangladesh": {
-        "oil": 60,
-        "electricity": 30,
-        "nuclear": 0
+    "Argentina": {
+        "dark_energy": 7500,
+        "light_energy": 7200,
+        "strange_matter": 3900
     },
-    "Algeria": {
-        "oil": 70,
-        "electricity": 30,
-        "nuclear": 0
+    "Nigeria": {
+        "dark_energy": 7200,
+        "light_energy": 6900,
+        "strange_matter": 3800
     },
-    "Israel": {
-        "oil": 40,
-        "electricity": 20,
-        "nuclear": 5
+    "Vietnam": {
+        "dark_energy": 7000,
+        "light_energy": 6800,
+        "strange_matter": 3700
+    },
+    "Egypt": {
+        "dark_energy": 7400,
+        "light_energy": 7100,
+        "strange_matter": 3900
     },
     "Poland": {
-        "oil": 140,
-        "electricity": 60,
-        "nuclear": 0
+        "dark_energy": 7800,
+        "light_energy": 7500,
+        "strange_matter": 4100
+    },
+    "Pakistan": {
+        "dark_energy": 7300,
+        "light_energy": 7100,
+        "strange_matter": 3900
+    },
+    "Bangladesh": {
+        "dark_energy": 7100,
+        "light_energy": 6900,
+        "strange_matter": 3800
+    },
+    "Philippines": {
+        "dark_energy": 7000,
+        "light_energy": 6800,
+        "strange_matter": 3700
+    },
+    "Netherlands": {
+        "dark_energy": 8200,
+        "light_energy": 7800,
+        "strange_matter": 4300
     },
     "Ukraine": {
-        "oil": 80,
-        "electricity": 50,
-        "nuclear": 15
+        "dark_energy": 7600,
+        "light_energy": 7300,
+        "strange_matter": 4100
+    },
+    "Colombia": {
+        "dark_energy": 7500,
+        "light_energy": 7200,
+        "strange_matter": 4000
+    },
+    "Malaysia": {
+        "dark_energy": 7300,
+        "light_energy": 7100,
+        "strange_matter": 3900
+    },
+    "Thailand": {
+        "dark_energy": 7200,
+        "light_energy": 7000,
+        "strange_matter": 3800
     },
     "Sweden": {
-        "oil": 50,
-        "electricity": 30,
-        "nuclear": 15
+        "dark_energy": 7900,
+        "light_energy": 7600,
+        "strange_matter": 4200
+    },
+    "Belgium": {
+        "dark_energy": 8000,
+        "light_energy": 7700,
+        "strange_matter": 4300
+    },
+    "Czech Republic": {
+        "dark_energy": 7700,
+        "light_energy": 7400,
+        "strange_matter": 4000
+    },
+    "Chile": {
+        "dark_energy": 7600,
+        "light_energy": 7300,
+        "strange_matter": 4100
+    },
+    "Finland": {
+        "dark_energy": 7800,
+        "light_energy": 7500,
+        "strange_matter": 4200
+    },
+    "Norway": {
+        "dark_energy": 8000,
+        "light_energy": 7800,
+        "strange_matter": 4300
+    },
+    "Israel": {
+        "dark_energy": 7500,
+        "light_energy": 7200,
+        "strange_matter": 3900
+    },
+    "Portugal": {
+        "dark_energy": 7700,
+        "light_energy": 7400,
+        "strange_matter": 4000
+    },
+    "Romania": {
+        "dark_energy": 7500,
+        "light_energy": 7200,
+        "strange_matter": 3900
+    },
+    "Ireland": {
+        "dark_energy": 7800,
+        "light_energy": 7500,
+        "strange_matter": 4100
+    },
+    "Hungary": {
+        "dark_energy": 7400,
+        "light_energy": 7100,
+        "strange_matter": 3900
+    },
+    "New Zealand": {
+        "dark_energy": 8000,
+        "light_energy": 7700,
+        "strange_matter": 4300
+    },
+    "Switzerland": {
+        "dark_energy": 8500,
+        "light_energy": 8200,
+        "strange_matter": 4500
+    },
+    "Austria": {
+        "dark_energy": 7800,
+        "light_energy": 7500,
+        "strange_matter": 4200
+    },
+    "Denmark": {
+        "dark_energy": 8000,
+        "light_energy": 7700,
+        "strange_matter": 4300
+    },
+    "Singapore": {
+        "dark_energy": 8400,
+        "light_energy": 8100,
+        "strange_matter": 4400
+    },
+    "South Sudan": {
+        "dark_energy": 6200,
+        "light_energy": 5900,
+        "strange_matter": 3300
+    },
+    "Zimbabwe": {
+        "dark_energy": 6700,
+        "light_energy": 6400,
+        "strange_matter": 3600
+    },
+    "Ethiopia": {
+        "dark_energy": 7000,
+        "light_energy": 6700,
+        "strange_matter": 3700
+    },
+    "Kenya": {
+        "dark_energy": 7300,
+        "light_energy": 7000,
+        "strange_matter": 3900
+    },
+    "Uganda": {
+        "dark_energy": 7100,
+        "light_energy": 6800,
+        "strange_matter": 3800
+    },
+    "Tanzania": {
+        "dark_energy": 7200,
+        "light_energy": 6900,
+        "strange_matter": 3800
+    },
+    "Ghana": {
+        "dark_energy": 7400,
+        "light_energy": 7100,
+        "strange_matter": 3900
+    },
+    "Ivory Coast": {
+        "dark_energy": 7300,
+        "light_energy": 7000,
+        "strange_matter": 3800
+    },
+    "Morocco": {
+        "dark_energy": 7600,
+        "light_energy": 7300,
+        "strange_matter": 4000
+    },
+    "Libya": {
+        "dark_energy": 7800,
+        "light_energy": 7500,
+        "strange_matter": 4200
+    },
+    "Algeria": {
+        "dark_energy": 8000,
+        "light_energy": 7700,
+        "strange_matter": 4300
+    },
+    "Sudan": {
+        "dark_energy": 7000,
+        "light_energy": 6700,
+        "strange_matter": 3700
+    },
+    "Angola": {
+        "dark_energy": 7200,
+        "light_energy": 6900,
+        "strange_matter": 3800
+    },
+    "Congo": {
+        "dark_energy": 7300,
+        "light_energy": 7000,
+        "strange_matter": 3900
+    },
+    "Zambia": {
+        "dark_energy": 7100,
+        "light_energy": 6800,
+        "strange_matter": 3800
+    },
+    "Malawi": {
+        "dark_energy": 6900,
+        "light_energy": 6600,
+        "strange_matter": 3700
+    },
+    "Botswana": {
+        "dark_energy": 7500,
+        "light_energy": 7200,
+        "strange_matter": 3900
+    },
+    "Namibia": {
+        "dark_energy": 7700,
+        "light_energy": 7400,
+        "strange_matter": 4000
+    },
+    "Mozambique": {
+        "dark_energy": 7000,
+        "light_energy": 6700,
+        "strange_matter": 3700
+    },
+    "Madagascar": {
+        "dark_energy": 6800,
+        "light_energy": 6500,
+        "strange_matter": 3600
+    },
+    "Rwanda": {
+        "dark_energy": 6900,
+        "light_energy": 6600,
+        "strange_matter": 3600
+    },
+    "Burundi": {
+        "dark_energy": 6700,
+        "light_energy": 6400,
+        "strange_matter": 3500
+    },
+    "Mali": {
+        "dark_energy": 6900,
+        "light_energy": 6600,
+        "strange_matter": 3600
+    },
+    "Senegal": {
+        "dark_energy": 7200,
+        "light_energy": 6900,
+        "strange_matter": 3800
+    },
+    "Chad": {
+        "dark_energy": 6800,
+        "light_energy": 6500,
+        "strange_matter": 3600
+    },
+    "Niger": {
+        "dark_energy": 6700,
+        "light_energy": 6400,
+        "strange_matter": 3500
+    },
+    "Cameroon": {
+        "dark_energy": 7200,
+        "light_energy": 6900,
+        "strange_matter": 3800
+    },
+    "Guinea": {
+        "dark_energy": 6900,
+        "light_energy": 6600,
+        "strange_matter": 3600
+    },
+    "Sierra Leone": {
+        "dark_energy": 6600,
+        "light_energy": 6300,
+        "strange_matter": 3500
+    },
+    "Liberia": {
+        "dark_energy": 6500,
+        "light_energy": 6200,
+        "strange_matter": 3400
+    },
+    "Togo": {
+        "dark_energy": 6700,
+        "light_energy": 6400,
+        "strange_matter": 3500
+    },
+    "Benin": {
+        "dark_energy": 6800,
+        "light_energy": 6500,
+        "strange_matter": 3600
+    },
+    "Central African Republic": {
+        "dark_energy": 6600,
+        "light_energy": 6300,
+        "strange_matter": 3500
+    },
+    "Somalia": {
+        "dark_energy": 6200,
+        "light_energy": 5900,
+        "strange_matter": 3300
+    },
+    "Eritrea": {
+        "dark_energy": 6300,
+        "light_energy": 6000,
+        "strange_matter": 3400
+    },
+    "Djibouti": {
+        "dark_energy": 6400,
+        "light_energy": 6100,
+        "strange_matter": 3400
+    },
+    "Eswatini": {
+        "dark_energy": 6600,
+        "light_energy": 6300,
+        "strange_matter": 3500
+    },
+    "Lesotho": {
+        "dark_energy": 6500,
+        "light_energy": 6200,
+        "strange_matter": 3400
+    },
+    "Malta": {
+        "dark_energy": 6800,
+        "light_energy": 6500,
+        "strange_matter": 3600
+    },
+    "Cyprus": {
+        "dark_energy": 7100,
+        "light_energy": 6800,
+        "strange_matter": 3800
+    },
+    "Bahamas": {
+        "dark_energy": 7200,
+        "light_energy": 6900,
+        "strange_matter": 3800
+    },
+    "Barbados": {
+        "dark_energy": 7000,
+        "light_energy": 6700,
+        "strange_matter": 3700
     }
 }
+

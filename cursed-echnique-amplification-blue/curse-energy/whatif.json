@@ -1,172 +1,362 @@
 {
-    "Angola": {
-        "oil": 15,
-        "electricity": 2,
-        "nuclear": 0
-    },
-    "Argentina": {
-        "oil": 50,
-        "electricity": 15,
-        "nuclear": 2
-    },
-    "Australia": {
-        "oil": 120,
-        "electricity": 40,
-        "nuclear": 0
-    },
-    "Brazil": {
-        "oil": 60,
-        "electricity": 20,
-        "nuclear": 1
-    },
-    "Canada": {
-        "oil": 150,
-        "electricity": 50,
-        "nuclear": 10
-    },
-    "China": {
-        "oil": 550,
-        "electricity": 200,
-        "nuclear": 30
-    },
-    "France": {
-        "oil": 100,
-        "electricity": 70,
-        "nuclear": 40
-    },
-    "Germany": {
-        "oil": 180,
-        "electricity": 100,
-        "nuclear": 12
-    },
-    "India": {
-        "oil": 230,
-        "electricity": 80,
-        "nuclear": 5
-    },
-    "Indonesia": {
-        "oil": 70,
-        "electricity": 30,
-        "nuclear": 1
-    },
-    "Italy": {
-        "oil": 90,
-        "electricity": 50,
-        "nuclear": 0
-    },
     "Japan": {
-        "oil": 200,
-        "electricity": 90,
-        "nuclear": 25
-    },
-    "Mexico": {
-        "oil": 110,
-        "electricity": 40,
-        "nuclear": 0
-    },
-    "Nigeria": {
-        "oil": 120,
-        "electricity": 10,
-        "nuclear": 0
-    },
-    "Russia": {
-        "oil": 400,
-        "electricity": 150,
-        "nuclear": 25
-    },
-    "South Africa": {
-        "oil": 50,
-        "electricity": 35,
-        "nuclear": 5
+        "friendship": 4500,
+        "mark_zuckerberg": 2400,
+        "banana": 800
     },
     "South Korea": {
-        "oil": 160,
-        "electricity": 80,
-        "nuclear": 20
+        "friendship": 3800,
+        "mark_zuckerberg": 2000,
+        "banana": 700
     },
-    "Spain": {
-        "oil": 120,
-        "electricity": 60,
-        "nuclear": 10
+    "Australia": {
+        "friendship": 3200,
+        "mark_zuckerberg": 1400,
+        "banana": 600
     },
-    "Turkey": {
-        "oil": 100,
-        "electricity": 45,
-        "nuclear": 0
+    "New Zealand": {
+        "friendship": 2800,
+        "mark_zuckerberg": 1200,
+        "banana": 500
     },
-    "United Kingdom": {
-        "oil": 170,
-        "electricity": 80,
-        "nuclear": 20
+    "South Africa": {
+        "friendship": 2700,
+        "mark_zuckerberg": 1000,
+        "banana": 450
     },
-    "United States": {
-        "oil": 1000,
-        "electricity": 400,
-        "nuclear": 100
-    },
-    "Vietnam": {
-        "oil": 80,
-        "electricity": 25,
-        "nuclear": 0
+    "Nigeria": {
+        "friendship": 3000,
+        "mark_zuckerberg": 800,
+        "banana": 600
     },
     "Egypt": {
-        "oil": 90,
-        "electricity": 25,
-        "nuclear": 2
+        "friendship": 2500,
+        "mark_zuckerberg": 1100,
+        "banana": 550
+    },
+    "Turkey": {
+        "friendship": 3100,
+        "mark_zuckerberg": 1500,
+        "banana": 700
     },
     "Saudi Arabia": {
-        "oil": 700,
-        "electricity": 50,
-        "nuclear": 0
+        "friendship": 3300,
+        "mark_zuckerberg": 1300,
+        "banana": 600
+    },
+    "Argentina": {
+        "friendship": 2400,
+        "mark_zuckerberg": 900,
+        "banana": 400
     },
     "Chile": {
-        "oil": 50,
-        "electricity": 20,
-        "nuclear": 0
+        "friendship": 2100,
+        "mark_zuckerberg": 800,
+        "banana": 350
+    },
+    "Colombia": {
+        "friendship": 2300,
+        "mark_zuckerberg": 900,
+        "banana": 400
+    },
+    "Peru": {
+        "friendship": 2200,
+        "mark_zuckerberg": 850,
+        "banana": 380
+    },
+    "Philippines": {
+        "friendship": 3000,
+        "mark_zuckerberg": 1000,
+        "banana": 500
+    },
+    "Vietnam": {
+        "friendship": 2800,
+        "mark_zuckerberg": 950,
+        "banana": 450
+    },
+    "Indonesia": {
+        "friendship": 3200,
+        "mark_zuckerberg": 1200,
+        "banana": 600
     },
     "Thailand": {
-        "oil": 60,
-        "electricity": 25,
-        "nuclear": 0
-    },
-    "Malaysia": {
-        "oil": 130,
-        "electricity": 60,
-        "nuclear": 0
+        "friendship": 2700,
+        "mark_zuckerberg": 1100,
+        "banana": 500
     },
     "Pakistan": {
-        "oil": 110,
-        "electricity": 45,
-        "nuclear": 3
+        "friendship": 2500,
+        "mark_zuckerberg": 900,
+        "banana": 400
     },
     "Bangladesh": {
-        "oil": 60,
-        "electricity": 30,
-        "nuclear": 0
+        "friendship": 2200,
+        "mark_zuckerberg": 850,
+        "banana": 380
     },
-    "Algeria": {
-        "oil": 70,
-        "electricity": 30,
-        "nuclear": 0
+    "Malaysia": {
+        "friendship": 2600,
+        "mark_zuckerberg": 1100,
+        "banana": 500
     },
-    "Israel": {
-        "oil": 40,
-        "electricity": 20,
-        "nuclear": 5
-    },
-    "Poland": {
-        "oil": 140,
-        "electricity": 60,
-        "nuclear": 0
-    },
-    "Ukraine": {
-        "oil": 80,
-        "electricity": 50,
-        "nuclear": 15
+    "Singapore": {
+        "friendship": 3000,
+        "mark_zuckerberg": 1200,
+        "banana": 550
     },
     "Sweden": {
-        "oil": 50,
-        "electricity": 30,
-        "nuclear": 15
+        "friendship": 3500,
+        "mark_zuckerberg": 1500,
+        "banana": 600
+    },
+    "Norway": {
+        "friendship": 3400,
+        "mark_zuckerberg": 1400,
+        "banana": 580
+    },
+    "Finland": {
+        "friendship": 3300,
+        "mark_zuckerberg": 1300,
+        "banana": 550
+    },
+    "Denmark": {
+        "friendship": 3100,
+        "mark_zuckerberg": 1400,
+        "banana": 520
+    },
+    "Netherlands": {
+        "friendship": 3200,
+        "mark_zuckerberg": 1500,
+        "banana": 540
+    },
+    "Belgium": {
+        "friendship": 3000,
+        "mark_zuckerberg": 1400,
+        "banana": 500
+    },
+    "Austria": {
+        "friendship": 2800,
+        "mark_zuckerberg": 1300,
+        "banana": 480
+    },
+    "Switzerland": {
+        "friendship": 3000,
+        "mark_zuckerberg": 1500,
+        "banana": 520
+    },
+    "Poland": {
+        "friendship": 2600,
+        "mark_zuckerberg": 1100,
+        "banana": 450
+    },
+    "Czech Republic": {
+        "friendship": 2500,
+        "mark_zuckerberg": 1000,
+        "banana": 400
+    },
+    "Ukraine": {
+        "friendship": 2200,
+        "mark_zuckerberg": 800,
+        "banana": 380
+    },
+    "Hungary": {
+        "friendship": 2100,
+        "mark_zuckerberg": 750,
+        "banana": 360
+    },
+    "Slovakia": {
+        "friendship": 2000,
+        "mark_zuckerberg": 700,
+        "banana": 340
+    },
+    "Ireland": {
+        "friendship": 2500,
+        "mark_zuckerberg": 1200,
+        "banana": 450
+    },
+    "Portugal": {
+        "friendship": 2300,
+        "mark_zuckerberg": 1100,
+        "banana": 400
+    },
+    "Spain": {
+        "friendship": 2700,
+        "mark_zuckerberg": 1200,
+        "banana": 500
+    },
+    "Greece": {
+        "friendship": 2500,
+        "mark_zuckerberg": 1000,
+        "banana": 450
+    },
+    "Romania": {
+        "friendship": 2400,
+        "mark_zuckerberg": 900,
+        "banana": 400
+    },
+    "Bulgaria": {
+        "friendship": 2200,
+        "mark_zuckerberg": 850,
+        "banana": 380
+    },
+    "Croatia": {
+        "friendship": 2100,
+        "mark_zuckerberg": 800,
+        "banana": 360
+    },
+    "Serbia": {
+        "friendship": 2000,
+        "mark_zuckerberg": 750,
+        "banana": 350
+    },
+    "Bosnia and Herzegovina": {
+        "friendship": 1900,
+        "mark_zuckerberg": 700,
+        "banana": 340
+    },
+    "Montenegro": {
+        "friendship": 1800,
+        "mark_zuckerberg": 650,
+        "banana": 320
+    },
+    "Albania": {
+        "friendship": 1700,
+        "mark_zuckerberg": 600,
+        "banana": 300
+    },
+    "North Macedonia": {
+        "friendship": 1600,
+        "mark_zuckerberg": 550,
+        "banana": 280
+    },
+    "Kosovo": {
+        "friendship": 1500,
+        "mark_zuckerberg": 500,
+        "banana": 260
+    },
+    "Slovenia": {
+        "friendship": 2400,
+        "mark_zuckerberg": 1000,
+        "banana": 400
+    },
+    "Lithuania": {
+        "friendship": 2300,
+        "mark_zuckerberg": 950,
+        "banana": 390
+    },
+    "Latvia": {
+        "friendship": 2200,
+        "mark_zuckerberg": 900,
+        "banana": 380
+    },
+    "Estonia": {
+        "friendship": 2100,
+        "mark_zuckerberg": 850,
+        "banana": 360
+    },
+    "Belarus": {
+        "friendship": 2000,
+        "mark_zuckerberg": 800,
+        "banana": 340
+    },
+    "Kazakhstan": {
+        "friendship": 2900,
+        "mark_zuckerberg": 1100,
+        "banana": 500
+    },
+    "Uzbekistan": {
+        "friendship": 2600,
+        "mark_zuckerberg": 950,
+        "banana": 450
+    },
+    "Turkmenistan": {
+        "friendship": 2400,
+        "mark_zuckerberg": 850,
+        "banana": 400
+    },
+    "Kyrgyzstan": {
+        "friendship": 2200,
+        "mark_zuckerberg": 800,
+        "banana": 380
+    },
+    "Tajikistan": {
+        "friendship": 2000,
+        "mark_zuckerberg": 750,
+        "banana": 340
+    },
+    "Armenia": {
+        "friendship": 1900,
+        "mark_zuckerberg": 700,
+        "banana": 320
+    },
+    "Georgia": {
+        "friendship": 1800,
+        "mark_zuckerberg": 650,
+        "banana": 300
+    },
+    "Azerbaijan": {
+        "friendship": 2500,
+        "mark_zuckerberg": 1000,
+        "banana": 450
+    },
+    "Moldova": {
+        "friendship": 2100,
+        "mark_zuckerberg": 800,
+        "banana": 360
+    },
+    "Iceland": {
+        "friendship": 2200,
+        "mark_zuckerberg": 900,
+        "banana": 380
+    },
+    "Greenland": {
+        "friendship": 1800,
+        "mark_zuckerberg": 700,
+        "banana": 320
+    },
+    "Cuba": {
+        "friendship": 2400,
+        "mark_zuckerberg": 950,
+        "banana": 400
+    },
+    "Jamaica": {
+        "friendship": 2300,
+        "mark_zuckerberg": 900,
+        "banana": 390
+    },
+    "Haiti": {
+        "friendship": 2000,
+        "mark_zuckerberg": 750,
+        "banana": 350
+    },
+    "Dominican Republic": {
+        "friendship": 2500,
+        "mark_zuckerberg": 1000,
+        "banana": 450
+    },
+    "Panama": {
+        "friendship": 2600,
+        "mark_zuckerberg": 950,
+        "banana": 460
+    },
+    "Costa Rica": {
+        "friendship": 2300,
+        "mark_zuckerberg": 900,
+        "banana": 400
+    },
+    "El Salvador": {
+        "friendship": 2200,
+        "mark_zuckerberg": 850,
+        "banana": 380
+    },
+    "Guatemala": {
+        "friendship": 2400,
+        "mark_zuckerberg": 1000,
+        "banana": 450
+    },
+    "Honduras": {
+        "friendship": 2100,
+        "mark_zuckerberg": 800,
+        "banana": 360
     }
 }

@@ -1,172 +1,364 @@
 {
+    "Afghanistan": {
+        "oil": 20,
+        "biomass": 15,
+        "nuclear": 0
+    },
+    "Albania": {
+        "oil": 25,
+        "biomass": 10,
+        "nuclear": 0
+    },
     "Angola": {
-        "oil": 15,
-        "electricity": 2,
+        "oil": 90,
+        "biomass": 45,
         "nuclear": 0
     },
     "Argentina": {
-        "oil": 50,
-        "electricity": 15,
-        "nuclear": 2
-    },
-    "Australia": {
-        "oil": 120,
-        "electricity": 40,
-        "nuclear": 0
-    },
-    "Brazil": {
-        "oil": 60,
-        "electricity": 20,
-        "nuclear": 1
-    },
-    "Canada": {
-        "oil": 150,
-        "electricity": 50,
-        "nuclear": 10
-    },
-    "China": {
-        "oil": 550,
-        "electricity": 200,
+        "oil": 400,
+        "biomass": 250,
         "nuclear": 30
     },
-    "France": {
-        "oil": 100,
-        "electricity": 70,
-        "nuclear": 40
-    },
-    "Germany": {
-        "oil": 180,
-        "electricity": 100,
-        "nuclear": 12
-    },
-    "India": {
-        "oil": 230,
-        "electricity": 80,
-        "nuclear": 5
-    },
-    "Indonesia": {
-        "oil": 70,
-        "electricity": 30,
-        "nuclear": 1
-    },
-    "Italy": {
-        "oil": 90,
-        "electricity": 50,
+    "Australia": {
+        "oil": 1200,
+        "biomass": 600,
         "nuclear": 0
     },
-    "Japan": {
+    "Austria": {
+        "oil": 300,
+        "biomass": 120,
+        "nuclear": 0
+    },
+    "Bangladesh": {
+        "oil": 150,
+        "biomass": 300,
+        "nuclear": 0
+    },
+    "Belgium": {
+        "oil": 500,
+        "biomass": 200,
+        "nuclear": 50
+    },
+    "Brazil": {
+        "oil": 800,
+        "biomass": 900,
+        "nuclear": 20
+    },
+    "Canada": {
+        "oil": 2500,
+        "biomass": 1000,
+        "nuclear": 450
+    },
+    "China": {
+        "oil": 8000,
+        "biomass": 3500,
+        "nuclear": 1000
+    },
+    "Denmark": {
         "oil": 200,
-        "electricity": 90,
-        "nuclear": 25
-    },
-    "Mexico": {
-        "oil": 110,
-        "electricity": 40,
-        "nuclear": 0
-    },
-    "Nigeria": {
-        "oil": 120,
-        "electricity": 10,
-        "nuclear": 0
-    },
-    "Russia": {
-        "oil": 400,
-        "electricity": 150,
-        "nuclear": 25
-    },
-    "South Africa": {
-        "oil": 50,
-        "electricity": 35,
-        "nuclear": 5
-    },
-    "South Korea": {
-        "oil": 160,
-        "electricity": 80,
-        "nuclear": 20
-    },
-    "Spain": {
-        "oil": 120,
-        "electricity": 60,
-        "nuclear": 10
-    },
-    "Turkey": {
-        "oil": 100,
-        "electricity": 45,
-        "nuclear": 0
-    },
-    "United Kingdom": {
-        "oil": 170,
-        "electricity": 80,
-        "nuclear": 20
-    },
-    "United States": {
-        "oil": 1000,
-        "electricity": 400,
-        "nuclear": 100
-    },
-    "Vietnam": {
-        "oil": 80,
-        "electricity": 25,
+        "biomass": 150,
         "nuclear": 0
     },
     "Egypt": {
-        "oil": 90,
-        "electricity": 25,
-        "nuclear": 2
+        "oil": 400,
+        "biomass": 150,
+        "nuclear": 20
     },
-    "Saudi Arabia": {
-        "oil": 700,
-        "electricity": 50,
+    "France": {
+        "oil": 2100,
+        "biomass": 900,
+        "nuclear": 1800
+    },
+    "Germany": {
+        "oil": 3200,
+        "biomass": 1500,
+        "nuclear": 500
+    },
+    "India": {
+        "oil": 5000,
+        "biomass": 2500,
+        "nuclear": 200
+    },
+    "Indonesia": {
+        "oil": 1000,
+        "biomass": 1200,
         "nuclear": 0
     },
-    "Chile": {
-        "oil": 50,
-        "electricity": 20,
+    "Italy": {
+        "oil": 1800,
+        "biomass": 800,
         "nuclear": 0
     },
-    "Thailand": {
-        "oil": 60,
-        "electricity": 25,
-        "nuclear": 0
+    "Japan": {
+        "oil": 400,
+        "biomass": 1200,
+        "nuclear": 900
     },
-    "Malaysia": {
-        "oil": 130,
-        "electricity": 60,
+    "Mexico": {
+        "oil": 1500,
+        "biomass": 600,
+        "nuclear": 30
+    },
+    "Nigeria": {
+        "oil": 800,
+        "biomass": 2000,
         "nuclear": 0
     },
     "Pakistan": {
-        "oil": 110,
-        "electricity": 45,
-        "nuclear": 3
+        "oil": 500,
+        "biomass": 1500,
+        "nuclear": 10
     },
-    "Bangladesh": {
-        "oil": 60,
-        "electricity": 30,
+    "Russia": {
+        "oil": 6000,
+        "biomass": 2000,
+        "nuclear": 800
+    },
+    "Saudi Arabia": {
+        "oil": 7000,
+        "biomass": 50,
         "nuclear": 0
     },
+    "South Africa": {
+        "oil": 1000,
+        "biomass": 400,
+        "nuclear": 100
+    },
+    "South Korea": {
+        "oil": 2500,
+        "biomass": 900,
+        "nuclear": 1000
+    },
+    "Spain": {
+        "oil": 2000,
+        "biomass": 800,
+        "nuclear": 400
+    },
+    "United Kingdom": {
+        "oil": 2800,
+        "biomass": 1200,
+        "nuclear": 800
+    },
+    "United States": {
+        "oil": 20000,
+        "biomass": 8000,
+        "nuclear": 9000
+    },
+    "Vietnam": {
+        "oil": 500,
+        "biomass": 700,
+        "nuclear": 0
+    },
+
     "Algeria": {
+        "oil": 700,
+        "biomass": 250,
+        "nuclear": 0
+    },
+    "Botswana": {
         "oil": 70,
-        "electricity": 30,
+        "biomass": 40,
+        "nuclear": 0
+    },
+    "Cameroon": {
+        "oil": 300,
+        "biomass": 150,
+        "nuclear": 0
+    },
+    "Chad": {
+        "oil": 70,
+        "biomass": 200,
+        "nuclear": 0
+    },
+    "Chile": {
+        "oil": 600,
+        "biomass": 180,
+        "nuclear": 0
+    },
+    "Colombia": {
+        "oil": 850,
+        "biomass": 500,
+        "nuclear": 0
+    },
+    "Czech Republic": {
+        "oil": 350,
+        "biomass": 300,
+        "nuclear": 250
+    },
+    "Ecuador": {
+        "oil": 300,
+        "biomass": 150,
+        "nuclear": 0
+    },
+    "Finland": {
+        "oil": 900,
+        "biomass": 400,
+        "nuclear": 250
+    },
+    "Ghana": {
+        "oil": 210,
+        "biomass": 700,
+        "nuclear": 0
+    },
+    "Greece": {
+        "oil": 400,
+        "biomass": 120,
+        "nuclear": 0
+    },
+    "Hungary": {
+        "oil": 230,
+        "biomass": 120,
+        "nuclear": 150
+    },
+    "Iran": {
+        "oil": 800,
+        "biomass": 200,
+        "nuclear": 50
+    },
+    "Ireland": {
+        "oil": 300,
+        "biomass": 100,
         "nuclear": 0
     },
     "Israel": {
-        "oil": 40,
-        "electricity": 20,
-        "nuclear": 5
+        "oil": 600,
+        "biomass": 300,
+        "nuclear": 100
     },
-    "Poland": {
-        "oil": 140,
-        "electricity": 60,
+    "Jordan": {
+        "oil": 100,
+        "biomass": 50,
         "nuclear": 0
     },
-    "Ukraine": {
-        "oil": 80,
-        "electricity": 50,
-        "nuclear": 15
+    "Kazakhstan": {
+        "oil": 1000,
+        "biomass": 300,
+        "nuclear": 400
+    },
+    "Kenya": {
+        "oil": 200,
+        "biomass": 800,
+        "nuclear": 0
+    },
+    "Kuwait": {
+        "oil": 1500,
+        "biomass": 30,
+        "nuclear": 0
+    },
+    "Libya": {
+        "oil": 750,
+        "biomass": 50,
+        "nuclear": 0
+    },
+    "Morocco": {
+        "oil": 300,
+        "biomass": 250,
+        "nuclear": 0
+    },
+    "Netherlands": {
+        "oil": 1100,
+        "biomass": 400,
+        "nuclear": 300
+    },
+    "Norway": {
+        "oil": 1300,
+        "biomass": 500,
+        "nuclear": 0
+    },
+    "Paraguay": {
+        "oil": 100,
+        "biomass": 200,
+        "nuclear": 0
+    },
+    "Peru": {
+        "oil": 500,
+        "biomass": 300,
+        "nuclear": 0
+    },
+    "Philippines": {
+        "oil": 600,
+        "biomass": 900,
+        "nuclear": 0
+    },
+    "Poland": {
+        "oil": 2000,
+        "biomass": 600,
+        "nuclear": 0
+    },
+    "Portugal": {
+        "oil": 500,
+        "biomass": 300,
+        "nuclear": 0
+    },
+    "Romania": {
+        "oil": 400,
+        "biomass": 300,
+        "nuclear": 200
+    },
+    "Serbia": {
+        "oil": 300,
+        "biomass": 200,
+        "nuclear": 0
+    },
+    "Singapore": {
+        "oil": 800,
+        "biomass": 150,
+        "nuclear": 0
+    },
+    "Slovakia": {
+        "oil": 300,
+        "biomass": 200,
+        "nuclear": 300
+    },
+    "Sri Lanka": {
+        "oil": 200,
+        "biomass": 400,
+        "nuclear": 0
+    },
+    "Sudan": {
+        "oil": 400,
+        "biomass": 700,
+        "nuclear": 0
     },
     "Sweden": {
-        "oil": 50,
-        "electricity": 30,
-        "nuclear": 15
+        "oil": 1200,
+        "biomass": 700,
+        "nuclear": 800
+    },
+    "Switzerland": {
+        "oil": 900,
+        "biomass": 300,
+        "nuclear": 300
+    },
+    "Tanzania": {
+        "oil": 300,
+        "biomass": 1000,
+        "nuclear": 0
+    },
+    "Thailand": {
+        "oil": 700,
+        "biomass": 1200,
+        "nuclear": 0
+    },
+    "Turkey": {
+        "oil": 1500,
+        "biomass": 500,
+        "nuclear": 0
+    },
+    "Venezuela": {
+        "oil": 1300,
+        "biomass": 200,
+        "nuclear": 0
+    },
+    "Zambia": {
+        "oil": 100,
+        "biomass": 600,
+        "nuclear": 0
+    },
+    "Zimbabwe": {
+        "oil": 200,
+        "biomass": 500,
+        "nuclear": 0
     }
 }
+

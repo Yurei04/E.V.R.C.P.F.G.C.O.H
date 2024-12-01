@@ -161,14 +161,14 @@ document.querySelectorAll(".allPaths").forEach(e => {
 function getLabelsByMode(currentMode) {
     switch (currentMode) {
         case "brainrot":
-            return ["Aura", "Rizz", "Skibidi"];
+            return ["Aura", "Rizz", "Chill"];
         case "cosmic":
-            return ["Starlight", "Nebula", "Gravity"];
+            return ["Dark Energy", "Light Energy", "Strange Matter"];
         case "whatif":
-            return ["Imagination", "Speculation", "Possibility"];
+            return ["Friendship", "Mark Zuckerberg", "Banana"];
         case "basic":
         default:
-            return ["Oil", "Electricity", "Nuclear"];
+            return ["Oil", "Biomass", "Nuclear"];
     }
 }
 
