@@ -1558,28 +1558,28 @@
     <div class="mode-switches">
         <h2>Basic Energy Types</h2>
         <label class="toggle-switch">
-            <input type="checkbox" value="basic" name="mode" data-container="basic-energy-container">
+            <input type="checkbox" value="basic" name="mode" data-container="basic-energy-container" id="energy">
             <div class="toggle-switch-background">
                 <div class="toggle-switch-handle"></div>
             </div>
         </label>
         <h2>BrainRot Energy</h2>
         <label class="toggle-switch">
-            <input type="checkbox" value="brainrot" name="mode" data-container="brainrot-energy-container">
+            <input type="checkbox" value="brainrot" name="mode" data-container="brainrot-energy-container" id="brainrot" checked> 
             <div class="toggle-switch-background">
                 <div class="toggle-switch-handle"></div>
             </div>
         </label>
         <h2>Cosmic Energy</h2>
         <label class="toggle-switch">
-            <input type="checkbox" value="cosmic" name="mode" data-container="cosmic-energy-container">
+            <input type="checkbox" value="cosmic" name="mode" data-container="cosmic-energy-container" id="cosmic">
             <div class="toggle-switch-background">
                 <div class="toggle-switch-handle"></div>
             </div>
         </label>
         <h2>What If Energy</h2>
         <label class="toggle-switch">
-            <input type="checkbox" value="whatif" name="mode" data-container="what-if-energy-container">
+            <input type="checkbox" value="whatif" name="mode" data-container="what-if-energy-container" id="whatif">
             <div class="toggle-switch-background">
                 <div class="toggle-switch-handle"></div>
             </div>
@@ -1677,14 +1677,14 @@
     </div>
     
 
-    <div class="calculateEnergy">
-        <button onclick="calculateEnergy()">Calculate</button>
-        <div id="result">Result: <span id="energy-result">0</span></div><!--Change to chart js later-->
+    <div class="controls">
+        <button onclick="calculateEnergy()">Calculate Energy</button>
     </div>
 
 
 
     <canvas id="energy-chart" width="400" height="200"></canvas>
+    <div id="energy-result"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./cursed-technique-reversal-red/ThisWasCodedByMyCat.js"></script>

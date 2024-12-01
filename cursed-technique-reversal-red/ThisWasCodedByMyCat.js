@@ -1,7 +1,15 @@
+// HELLO IF YOU ARE READING THIS IM JUST ADDING THIS TO LET YOU KNOW
+// THAT I DO NOT KNOW WTF AM I DOING 
+// SO BASICALLY I DIDN'T PLAN ANYTHING AND JUST TRUSTED GOD AND IDEAS KEPT POPPING IN A NOT CHRONOLOGICAL ORDER
+// SO THINGS GETS MIXED UP I THINK THIS IS THE 4TH? I CHANGED THE WHOLE THING TO KEEP THINGS STRAIGHT
+//ANY WHO'S GOD BLESS READING THIS THING 
+let energyData = {};
+let currentMode = "basic"; 
+
 document.addEventListener("DOMContentLoaded", () => {
     const modeSwitches = document.querySelectorAll(".mode-switches .toggle-switch input");
     const modeContainers = document.querySelectorAll(".modes-container > div");
-
+    console.log(switchEl.checked)
     modeSwitches.forEach((switchEl, index) => {
         switchEl.addEventListener("change", () => {
             if (switchEl.checked) {
@@ -71,7 +79,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
 function calculateEnergy() {
     const activeMode = document.querySelector('input[name="mode"]:checked');
     if (!activeMode) {
@@ -87,10 +94,9 @@ function calculateEnergy() {
     }
 
     const checkboxes = targetContainer.querySelectorAll('input[type="checkbox"]:checked');
-    const quantityInputs = targetContainer.querySelectorAll('.energy-quantity');
+    const quantityInputs = targetContainer.querySelectorAll(".energy-quantity");
 
     let totalEnergy = 0;
-
     checkboxes.forEach((checkbox, index) => {
         const value = parseInt(checkbox.value, 10);
         const quantityInput = quantityInputs[index];
@@ -100,7 +106,15 @@ function calculateEnergy() {
     });
 
     document.getElementById("energy-result").textContent = totalEnergy;
+
+    const worldValues = Object.values(worldData);
+    const computedData = [...worldValues.slice(0, 4), totalEnergy]; 
+
+    energyChart.data.datasets[0].data = computedData;
+    energyChart.update();
 }
+
+
 // THIS PART IS THE WORLD JS ================================================================================
 
 document.querySelectorAll(".allPaths").forEach(e => {
@@ -143,47 +157,116 @@ document.querySelectorAll(".allPaths").forEach(e => {
 
 // THIS PART IS THE CHART JS ================================================================================
 
-let energyData = {};
-let currentMode = "basic";
+
+function getLabelsByMode(currentMode) {
+    switch (currentMode) {
+        case "brainrot":
+            return ["Aura", "Rizz", "Skibidi"];
+        case "cosmic":
+            return ["Starlight", "Nebula", "Gravity"];
+        case "whatif":
+            return ["Imagination", "Speculation", "Possibility"];
+        case "basic":
+        default:
+            return ["Oil", "Electricity", "Nuclear"];
+    }
+}
 
 async function loadEnergyData() {
     try {
         let jsonFile;
-
-        switch(currentMode) {
+        switch (currentMode) {
             case "brainrot":
-                jsonFile = "../cursed-echnique-amplification-blue/curse-energy/aura.json";
+                jsonFile = "aura.json";
                 break;
             case "cosmic":
-                jsonFile = "../cursed-echnique-amplification-blue/curse-energy/cosmic.json";
+                jsonFile = "cosmic.json";
                 break;
             case "whatif":
-                jsonFile = "../cursed-echnique-amplification-blue/curse-energy/whatif.json";
+                jsonFile = "whatif.json";
                 break;
             default:
-                jsonFile = "../cursed-echnique-amplification-blue/curse-energy/energy.json";
+                jsonFile = "energy.json";
                 break;
         }
 
+        let response = await fetch(`../cursed-echnique-amplification-blue/curse-energy/${jsonFile}`);
+        energyData = await response.json();
+        const labelsName = getLabelsByMode(currentMode);
+        const firstCountry = Object.values(energyData)[0];
+        if (firstCountry) {
+            updateChartLabels(labelsName);
+            updateChartData(new Array(labelsName.length).fill(0));
+            energyChart.data.datasets[0].data = Object.values(firstCountry);
+            energyChart.update();
+        }
     } catch (error) {
-        console.error('Failed to load energy data:', error);
+        console.error(`Failed to load data for mode "${currentMode}":`, error);
     }
 }
 
-let energyChart = new Chart(document.getElementById('energy-chart'), {
-    type: 'bar',
+function updateChartLabels(labels) {
+    energyChart.data.labels = [...labels, "Total"];
+    energyChart.update();
+}
+
+function updateChartData(data) {
+    energyChart.data.datasets[0].data = data;
+    energyChart.update();
+}
+
+
+async function loadWorldData() {
+    try {
+        const response = await fetch("../cursed-echnique-amplification-blue/curse-energy/world.json");
+        worldData = await response.json();
+        console.log("World data loaded:", worldData);
+    } catch (error) {
+        console.error("Failed to load world data:", error);
+    }
+}
+
+document.querySelectorAll(".chart-type-btn").forEach((button) => {
+    button.addEventListener("click", () => {
+        const newType = button.getAttribute("data-type");
+
+        if (energyChart) {
+            energyChart.destroy();
+        }
+
+        energyChart = new Chart(document.getElementById("energy-chart"), {
+            type: newType,
+            data: {
+                ...energyChart.data,
+            },
+            options: {
+                ...energyChart.options,
+            },
+        });
+    });
+});
+
+let energyChart = new Chart(document.getElementById("energy-chart"), {
+    type: "bar", 
     data: {
-        labels: ['Oil', 'Electricity', 'Nuclear', 'Total'],
+        labels: ["Loading...", "Please select a mode"],
         datasets: [{
-            label: 'Energy Usage (TWh)',
+            label: "Energy Usage (TWh)",
             data: [0, 0, 0, 0],
-            backgroundColor: ['#ff7f50', '#4682b4', '#90ee90', '#d2691e']
+            backgroundColor: ["#ff7f50", "#4682b4", "#90ee90", "#d2691e"]
         }]
     },
     options: {
         responsive: true,
         plugins: {
-            legend: { display: false }
+            legend: { display: true },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        return `${context.label}: ${context.raw} TWh`;
+                    }
+                }
+            }
         },
         scales: {
             y: { beginAtZero: true }
@@ -191,19 +274,26 @@ let energyChart = new Chart(document.getElementById('energy-chart'), {
     }
 });
 
-document.querySelectorAll('.allPaths').forEach(path => {
-    path.addEventListener('click', () => {
-        const countryId = path.getAttribute('id');
+
+document.querySelectorAll(".mode-switches .toggle-switch input").forEach((switchEl) => {
+    switchEl.addEventListener("change", () => {
+        if (switchEl.checked) {
+            currentMode = switchEl.getAttribute("id"); 
+            loadEnergyData(); 
+        }
+    });
+});
+
+document.querySelectorAll(".allPaths").forEach((path) => {
+    path.addEventListener("click", () => {
+        const countryId = path.getAttribute("id");
         const countryData = energyData[countryId];
 
         if (countryData) {
-            const total = countryData.oil + countryData.electricity + countryData.nuclear;
-            energyChart.data.datasets[0].data = [
-                countryData.oil,
-                countryData.electricity,
-                countryData.nuclear,
-                total
-            ];
+            const dataValues = Object.values(countryData);
+            const total = dataValues.reduce((sum, val) => sum + val, 0);
+
+            energyChart.data.datasets[0].data = [...dataValues, total];
             energyChart.update();
         } else {
             alert(`No data available for ${countryId}`);
@@ -211,4 +301,7 @@ document.querySelectorAll('.allPaths').forEach(path => {
     });
 });
 
+
 loadEnergyData();
+loadWorldData();
+

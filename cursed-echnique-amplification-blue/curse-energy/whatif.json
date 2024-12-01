@@ -1,0 +1,172 @@
+{
+    "Angola": {
+        "oil": 15,
+        "electricity": 2,
+        "nuclear": 0
+    },
+    "Argentina": {
+        "oil": 50,
+        "electricity": 15,
+        "nuclear": 2
+    },
+    "Australia": {
+        "oil": 120,
+        "electricity": 40,
+        "nuclear": 0
+    },
+    "Brazil": {
+        "oil": 60,
+        "electricity": 20,
+        "nuclear": 1
+    },
+    "Canada": {
+        "oil": 150,
+        "electricity": 50,
+        "nuclear": 10
+    },
+    "China": {
+        "oil": 550,
+        "electricity": 200,
+        "nuclear": 30
+    },
+    "France": {
+        "oil": 100,
+        "electricity": 70,
+        "nuclear": 40
+    },
+    "Germany": {
+        "oil": 180,
+        "electricity": 100,
+        "nuclear": 12
+    },
+    "India": {
+        "oil": 230,
+        "electricity": 80,
+        "nuclear": 5
+    },
+    "Indonesia": {
+        "oil": 70,
+        "electricity": 30,
+        "nuclear": 1
+    },
+    "Italy": {
+        "oil": 90,
+        "electricity": 50,
+        "nuclear": 0
+    },
+    "Japan": {
+        "oil": 200,
+        "electricity": 90,
+        "nuclear": 25
+    },
+    "Mexico": {
+        "oil": 110,
+        "electricity": 40,
+        "nuclear": 0
+    },
+    "Nigeria": {
+        "oil": 120,
+        "electricity": 10,
+        "nuclear": 0
+    },
+    "Russia": {
+        "oil": 400,
+        "electricity": 150,
+        "nuclear": 25
+    },
+    "South Africa": {
+        "oil": 50,
+        "electricity": 35,
+        "nuclear": 5
+    },
+    "South Korea": {
+        "oil": 160,
+        "electricity": 80,
+        "nuclear": 20
+    },
+    "Spain": {
+        "oil": 120,
+        "electricity": 60,
+        "nuclear": 10
+    },
+    "Turkey": {
+        "oil": 100,
+        "electricity": 45,
+        "nuclear": 0
+    },
+    "United Kingdom": {
+        "oil": 170,
+        "electricity": 80,
+        "nuclear": 20
+    },
+    "United States": {
+        "oil": 1000,
+        "electricity": 400,
+        "nuclear": 100
+    },
+    "Vietnam": {
+        "oil": 80,
+        "electricity": 25,
+        "nuclear": 0
+    },
+    "Egypt": {
+        "oil": 90,
+        "electricity": 25,
+        "nuclear": 2
+    },
+    "Saudi Arabia": {
+        "oil": 700,
+        "electricity": 50,
+        "nuclear": 0
+    },
+    "Chile": {
+        "oil": 50,
+        "electricity": 20,
+        "nuclear": 0
+    },
+    "Thailand": {
+        "oil": 60,
+        "electricity": 25,
+        "nuclear": 0
+    },
+    "Malaysia": {
+        "oil": 130,
+        "electricity": 60,
+        "nuclear": 0
+    },
+    "Pakistan": {
+        "oil": 110,
+        "electricity": 45,
+        "nuclear": 3
+    },
+    "Bangladesh": {
+        "oil": 60,
+        "electricity": 30,
+        "nuclear": 0
+    },
+    "Algeria": {
+        "oil": 70,
+        "electricity": 30,
+        "nuclear": 0
+    },
+    "Israel": {
+        "oil": 40,
+        "electricity": 20,
+        "nuclear": 5
+    },
+    "Poland": {
+        "oil": 140,
+        "electricity": 60,
+        "nuclear": 0
+    },
+    "Ukraine": {
+        "oil": 80,
+        "electricity": 50,
+        "nuclear": 15
+    },
+    "Sweden": {
+        "oil": 50,
+        "electricity": 30,
+        "nuclear": 15
+    }
+}
