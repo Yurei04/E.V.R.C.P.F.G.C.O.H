@@ -1588,18 +1588,21 @@
     
     <div class="modes-container">
         <div class="basic-energy-container hidden">
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="basic-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="basic-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="basic-energy">
                 <div class="toggle-switch-background">
@@ -1610,18 +1613,21 @@
         </div>
 
         <div class="brainrot-energy-container hidden">
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="brain-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="brain-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="brain-energy">
                 <div class="toggle-switch-background">
@@ -1632,18 +1638,21 @@
         </div>
 
         <div class="cosmic-energy-container hidden">
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="cosmic-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="cosmic-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="cosmic-energy">
                 <div class="toggle-switch-background">
@@ -1654,18 +1663,21 @@
         </div>
 
         <div class="what-if-energy-container hidden">
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="what-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="what-energy">
                 <div class="toggle-switch-background">
                     <div class="toggle-switch-handle"></div>
                 </div>
             </label>
+            <h2></h2>
             <label class="toggle-switch">
                 <input type="checkbox" value="100" name="what-energy">
                 <div class="toggle-switch-background">
@@ -1678,12 +1690,15 @@
     
 
     <div class="controls">
+
+        
         <button onclick="calculateEnergy()">Calculate Energy</button>
     </div>
 
 
-
-    <canvas id="energy-chart" width="400" height="200"></canvas>
+    <div class="chart-container" style="position: relative; height: 400px; width: 600px;">
+        <canvas id="energy-chart"></canvas>
+    </div>
     <div id="energy-result"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

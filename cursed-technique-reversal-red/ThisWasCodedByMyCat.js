@@ -107,13 +107,13 @@ function calculateEnergy() {
 
     document.getElementById("energy-result").textContent = totalEnergy;
 
+    // Update chart with computed data
     const worldValues = Object.values(worldData);
-    const computedData = [...worldValues.slice(0, 4), totalEnergy]; 
+    const computedData = [...worldValues.slice(0, 4), totalEnergy]; // Include the first 4 from world.json and add the computed value
 
     energyChart.data.datasets[0].data = computedData;
     energyChart.update();
 }
-
 
 // THIS PART IS THE WORLD JS ================================================================================
 
@@ -198,7 +198,7 @@ async function loadEnergyData() {
             updateChartLabels(labelsName);
             updateChartData(new Array(labelsName.length).fill(0));
             energyChart.data.datasets[0].data = Object.values(firstCountry);
-            energyChart.update();
+            energyChart.update(); 
         }
     } catch (error) {
         console.error(`Failed to load data for mode "${currentMode}":`, error);
