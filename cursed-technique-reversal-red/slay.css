@@ -347,11 +347,15 @@ body.basic-mode {
 }
 
 body.brainrot-mode {
-    background: linear-gradient(90deg, #ff00ff, #00ffff, #ff0000);
-    background-size: 400% 400%;
-    animation: cosmicAnimation 10s ease infinite;
+    background: 
+        linear-gradient(90deg, #ff00ff, #00ffff, #ff0000), 
+        url('../cursed-echnique-amplification-blue/chillguy.jpg');
+    background-blend-mode: overlay; 
+    background-size: 400% 400%, cover; 
+    animation: cosmicAnimation 10s ease infinite; 
     color: #a3a900;
 }
+
 
 .brainrot-mode .chart-container {
     border: 2px solid #ff0000;
