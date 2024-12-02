@@ -4,6 +4,11 @@
         "mark_zuckerberg": 2400,
         "banana": 800
     },
+    "United States": {
+        "friendship": 38000,
+        "mark_zuckerberg": 20000000,
+        "banana": 70000000000000000000000000000000
+    },
     "South Korea": {
         "friendship": 3800,
         "mark_zuckerberg": 2000,
